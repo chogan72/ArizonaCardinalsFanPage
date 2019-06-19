@@ -1,0 +1,14 @@
+/*Removes unnecessary printing objects*/
+
+/*Removes cropping of page*/
+.wrapper{
+	width: 100%;
+	margin: 0;
+}
+
+/*Removes box behind main*/
+#main-box{
+	background-color: #FFFFFF;
+	padding: 0;
+	box-shadow: none;
+}

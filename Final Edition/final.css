@@ -1,0 +1,576 @@
+/*Body*/
+body{
+	background-image: linear-gradient(to bottom, #ff4d4d, #ff8080);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Wrapper*/
+.wrapper{
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	text-align: center;
+}
+
+/*Header Logo*/
+#logo{
+	float: left;
+	width: 6.5em;
+}
+
+/*Heading*/
+h1{
+	font-family: Georgia, Times New Roman, sherif;
+	float: right;
+	width: 85%;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 3.8em;
+	text-align: right;
+}
+
+/*Navigation  Bar*/
+nav{
+	float: right;
+	width: 85%;
+	font-size: 1.6em;
+}
+
+nav ul{
+	text-align: right;
+	list-style-type: none;
+	margin: .5%;
+	margin-right: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+	color: #000000;
+}
+
+nav a:visited{
+	color: #000000;
+}
+
+nav a:hover{
+	color: #A52A2A;
+}
+
+
+/*Top and Bottom Lines*/
+hr {
+	border: 1px solid #000000;
+	width: 100%;
+}
+
+/*Content Box*/
+#main-box{
+	background-color: #ebebe0;
+	padding: 2%;
+	box-shadow: 3px 3px 3px #000000;
+}
+
+/*Banner Pictures*/
+.banner{
+	margin-top: .5%;
+	margin-bottom: .5%;
+	width: 95%
+}
+
+/*Page Headings*/
+h2{
+	font-size: 2.25em;
+	margin: 1;
+}
+
+/*Home Map*/
+#history{
+	margin-left: 10%;
+	width: 80%;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+/*Tables*/
+table{
+	margin: auto;
+	font-size: 1.7em;
+	border-spacing: 2;
+	border: 3px solid #000000;
+}
+
+/*Table Data and Rows*/
+th, td{
+	padding: 1px 15px 1px 15px;
+	border-style: none;
+}
+
+
+
+/*Schedule Page*/
+/*YouTube Box*/
+#youtube{
+	position: relative;
+	width: 70%;
+	padding-bottom: 39.375%;
+	padding-top: 25px;
+	height: 0;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 4%;
+}
+
+/*YouTube Video*/
+#youtube-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*Schedule Table*/
+#schedule{
+	background-color: #FFFFFF;
+}
+
+/*Schedule Header*/
+#schedule th{
+	border-bottom: 1px solid #000000;
+	padding: 5px 15px 5px 15px;
+}
+
+/*Schedule Rows*/
+#schedule td{
+	border-bottom: 1px solid #000000;
+	padding: 5px 15px 5px 15px;
+}
+
+/*Schedule Away Games*/
+.away{
+	color: #cc0000;
+}
+
+/*Schedule Week 17 Format*/
+#week17 td{
+	border-style: none;
+}
+
+/*Schedule Key*/
+#location{
+	font-size: 1.7em;
+	margin: .5%;
+}
+
+
+
+/*Championships*/
+/*Championship Cities*/
+h3{
+	font-size: 1.8em;
+	margin-bottom: 0;
+	margin-top: 2%;
+}
+
+/*Championship Banners*/
+.champ-banner{
+	width: 20%;
+	margin:0;
+}
+
+
+
+/*Players Page*/
+/*Years Navigation Bar*/
+#years{
+	font-size: 1.8em;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	border-bottom: 1px solid #000000;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+#years ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+}
+
+#years li{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#years a{
+	text-decoration: none;
+}
+
+#years a:link{
+	color: #000000;
+}
+
+#years a:visited{
+	color: #000000;
+}
+
+#years a:hover{
+	color: #A52A2A;
+}
+
+/*Player Navigation Bar*/
+#player-nav{
+	font-size: 1.3em;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	letter-spacing: 0;
+	border-bottom: 1px solid #000000;
+	margin-top: 4%;
+	margin-bottom: 1%;
+}
+
+#player-nav h4{
+	margin: 0;
+	margin-top: 10px;
+	font-size: 1.6em;
+	color: #cc0000;
+}
+
+#player-nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+}
+
+#player-nav li{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#player-nav a{
+	text-decoration: none;
+}
+
+#player-nav a:link{
+	color: #000000;
+}
+
+#player-nav a:visited{
+	color: #000000;
+}
+
+#player-nav a:hover{
+	color: #A52A2A;
+}
+
+/*Players Profile Box*/
+.hof-div{
+	width: 100%;
+	height: auto;
+	margin-bottom: 7.5%;
+}
+
+/*Player Names*/
+.hof-div h3{
+	font-size: 1.8em;
+	margin-bottom: 1%;
+}
+
+/*Player Pictures*/
+.players{
+	width: 25%;
+	height: 25%;
+	margin-bottom: 10px;
+	margin-left: 15%;
+	text-align: left;
+	display: block;
+}
+
+/*Player Information*/
+.hof-info{
+	margin-left: 40%;
+	margin-right: 20%;
+	margin-top: -25.75%;
+	width: 40%;
+	float: left;
+	text-align: left;
+	font-size: 1.4em;
+}
+
+/*Player Information List*/
+.hof-info li{
+	text-decoration: none;
+	list-style-type: none;
+	padding: 4px;
+}
+
+/*Mobile Navigation Bars*/
+.no-line{
+	display: none;
+}
+
+
+/*Form*/
+/*Required Paragraph*/
+#required{
+	font-size: 1.2em;
+}
+
+/*Form Box*/
+#contact-form{
+	margin: 0 auto;
+	width: 75%;
+}
+
+/*Form Labels*/
+label{
+	font-size: 1.2em;
+	float: left;
+	display: block;
+	text-align: right;
+	width: 26%;
+	padding-right: 2%;
+}
+
+/*Form Inputs*/
+input, textarea{
+	display: block;
+	width: 60%;
+	height: 1.2em;
+	margin-bottom: 20px;
+}
+
+/*Form Comments*/
+#Comments{
+	height: 3.6em;
+}
+
+/*Form Submit*/
+input[type="submit"]{
+	font-size: 1.2em;
+	margin-left: 40%;
+	margin-right: 40%;
+	width: 20%
+}
+
+/*External Link list*/
+.external ul{
+	list-style-type: none;
+	margin: .5%;
+	margin-right: 0;
+	padding: 0;
+}
+
+/*External Link links*/
+.external a{
+	text-decoration: none;
+}
+
+
+/*Footer*/
+footer{
+	font-size: .9em;
+	padding-top: 2%;
+}
+
+
+
+/*Tablet Media Query*/
+@media only screen and (max-width: 59em){
+	/*Site Heading*/
+	h1{
+		font-size: 2.8em;
+		width: 100%;
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+	
+	/*Heading Logo*/
+	#logo{
+		display: none;
+	}
+	
+	/*Navigation Bar*/
+	nav{
+		font-size: 1.2em;
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	
+	nav ul{
+		text-align: center;
+	}
+	
+	/*Page Banner*/
+	.banner{
+		width: 100%
+	}
+	
+	/*Page Headings*/
+	h2{
+		margin: 0.1;
+	}
+	
+	/*Home Page History Paragraph*/
+	#history{
+		margin-bottom: 1%;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		font-size: 1.5em;
+		text-align: left;
+	}
+	
+	/*Tables*/
+	table, #location{
+		font-size: .8em;
+	}
+	
+	/*Championship Banners*/
+	.champ-banner{
+		width: 40%;
+	}
+	
+	/*Player Images*/
+	.players{
+		width: 75%;
+		height: 75%;
+		margin-left: 12.5%;
+	}
+	
+	/*Player Information*/
+	.hof-info{
+		margin-left: 8%;
+		margin-right: 12.5%;
+		margin-top: 0;
+		width: 75%;
+		float: none;
+		font-size: 1em;
+	}
+	
+	/*Form Box*/
+	#contact-form{
+		width: 100%;
+	}
+	
+	/*Footer*/
+	footer{
+		font-size: .6em;
+	}
+}
+
+
+/*Mobile Media Query*/
+@media only screen and (max-width: 37.5em){
+	/*Page Wrapper*/
+	.wrapper{
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	/*Site Heading*/
+	h1{
+		border-bottom: 2px solid #000000;
+	}
+	
+	/*Navigation Bar*/
+	nav ul{
+		list-style-type: none;
+		margin: .5%;
+		margin-right: 0;
+		padding: 0;
+	}
+	
+	nav li{
+		border-bottom: 2px solid #000000;
+		display: block;
+	}
+
+	nav a{ 
+		text-decoration: none;
+	}
+	
+	/*Top border line*/
+	#top-line{
+		display: none;
+	}
+	
+	/*Page Banners*/
+	#banner-top{
+		display: none;
+	}
+	
+	/*Page Header*/
+	h2{
+		font-size: 1.5em;
+	}
+	
+	/*Home page History*/
+	#history{
+		font-size: 1em;
+	}
+	
+	/*Schedule data*/
+	#schedule th, #schedule td{
+	padding: 1px;
+	}
+	
+	/*Championship Banners*/
+	.champ-banner{
+		width: 75%;
+	}
+	
+	/*Year Navigation Bar*/
+	#years li{
+		display: block;
+	}
+	
+	/*Player Navigation Bar*/
+	#player-nav li{
+		display: block;
+	}
+	
+	/*Desktop Navigation Bars*/
+	.line{
+		display: none;
+	}
+	
+	/*Mobile Navigation Bars*/
+	.no-line{
+		display: block;
+	}
+	
+	/*Contact Form*/
+	#contact-form{
+		font-size: .8em;
+		width: 300px;
+	}
+	
+	/*Contact Paragraphs*/
+	#required, #about{
+		font-size: .8em;
+	}
+	
+	/*Footer*/
+	footer{
+		font-size: .4em;
+	}
+}
